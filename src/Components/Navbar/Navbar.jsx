@@ -29,7 +29,7 @@ const Navbar = () => {
             ? "bg-red-500 text-white text-[16px] font-bold mr-3 p-2 rounded-lg"
             : isPending
             ? "pending"
-            : "text-black text-[16px] font-bold mr-3 p-2 rounded-lg"
+            : "text-white text-[16px] font-bold mr-3 p-2 rounded-lg"
         }
       >
         {/* other code */}
@@ -46,7 +46,7 @@ const Navbar = () => {
               ? "bg-red-500 text-white text-[16px] font-bold mr-3 p-2 rounded-lg"
               : isPending
               ? "pending"
-              : "text-black text-[16px] font-bold mr-3 p-2 rounded-lg"
+              : "text-white text-[16px] font-bold mr-3 p-2 rounded-lg"
           }
         >
           {/* other code */}
@@ -60,7 +60,7 @@ const Navbar = () => {
             ? "bg-red-500 text-white text-[16px] font-bold mr-3 p-2 rounded-lg"
             : isPending
             ? "pending"
-            : "text-black text-[16px] font-bold mr-3 p-2 rounded-lg"
+            : "text-white text-[16px] font-bold mr-3 p-2 rounded-lg"
         }
       >
         {/* other code */}
@@ -107,7 +107,7 @@ const Navbar = () => {
             </Link>
           </div>
           <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1 z-20 bg-[white]">
+            <ul className="menu menu-horizontal px-1 z-20">
               {navLink}
             </ul>
           </div>
