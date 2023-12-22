@@ -54,7 +54,7 @@ const Navbar = () => {
         </NavLink>
       )}
       <NavLink
-        to={"/registration"}
+        to={"/signup"}
         className={({ isActive, isPending }) =>
           isActive
             ? "bg-red-500 text-white text-[16px] font-bold mr-3 p-2 rounded-lg"

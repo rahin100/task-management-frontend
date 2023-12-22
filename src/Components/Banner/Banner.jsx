@@ -22,7 +22,7 @@ const Banner = () => {
                 <br />
                 assign, and track tasks with ease
               </h2>
-              <Link to="/registration">
+              <Link to="/dashboard">
                 <button className="btn btn-warning text-white border-none hover:bg-black hover:text-white mr-2 mt-2">
                   Lets Explore
                 </button>
