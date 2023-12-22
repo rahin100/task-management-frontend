@@ -53,14 +53,7 @@ const DashboardHome = () => {
         {user?.displayName}, Welcome to your task management dashboard
       </h1>
       <Container>
-        <div className="flex flex-col md:flex-row justify-between items-center mb-[10px]">
-          <div className="mb-4 md:mb-0 md:mr-4">
-            <input
-              type="text"
-              placeholder="Search Task...."
-              className="p-2 border border-gray-300 rounded"
-            />
-          </div>
+        <div className="flex flex-col md:flex-row justify-end items-center mb-[10px]">
 
           {/* create new task  */}
           <div>

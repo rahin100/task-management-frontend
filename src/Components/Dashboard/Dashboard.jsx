@@ -1,6 +1,6 @@
 import { Link, NavLink, Outlet, useNavigate } from "react-router-dom";
 import { IoHome } from "react-icons/io5";
-import { LuListTodo } from "react-icons/lu";
+// import { LuListTodo } from "react-icons/lu";
 import { IoIosLogOut } from "react-icons/io";
 import { useContext } from "react";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
@@ -44,11 +44,11 @@ const Dashboard = () => {
                 Your Home <IoHome className="text-[24px]" />
               </NavLink>
             </li>
-            <li className="text-[18px] font-semibold">
+            {/* <li className="text-[18px] font-semibold">
               <NavLink to="/dashboard/archived">
                 Archive To-Do <LuListTodo className="text-[24px]" />
               </NavLink>
-            </li>
+            </li> */}
             <li className="text-[18px] font-semibold">
               <NavLink
                 onClick={handleSignOut}
